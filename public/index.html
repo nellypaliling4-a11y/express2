@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        
+        </style>
+</head>
+<body>
+    
+    <form action="/tambahSiswa" method="POST">
+        <label for="idbuku">ID:</label>
+        <input type="text" id="idbuku" name="idbuku" required>
+
+        <br><br>
+        <label for="judulbuku">Nama:</label>
+        <input type="text" id="judulbuku" name="judulbuku" required>
+
+        <br><br>
+        <label for="penulis">Umur:</label>
+        <input type="text" id="penulis" name="penulis" required>
+
+        <br><br>
+        <label for="tahun terbit">Tahun terbit:</label>
+        <input type="text" id="tahun terbit" name="tahun terbit" required>
+
+        <br><br>
+        <label for="isbn">ISBN:</label>
+        <input type="text" id="isbn" name="isbn" required>
+
+        <br><br>
+        <label for="kategori">Kategori:</label>
+        <input type="text" id="kategori" name="kategori" required>
+
+        <br><br>
+        <label for="novel">Novel:</label>
+        <input type="text" id="novel" name="novel" required>
+
+        <br><br>
+        <label for="autobiografi">autobiografi:</label>
+        <input type="text" id="autobiografi" name="autobiografi" required>
+
+
+
+
+
+
+
+
+
+
+
+
+        <br><br>
+        <button type="submit">Tambah Siswa</button>
+    </form>
+
+
+
+</body>
+</html>
